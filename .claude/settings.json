@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(ls *)",
+      "Bash(just *)",
+      "Bash(west *)",
+      "Bash(nix *)",
+      "WebFetch",
+      "WebSearch"
+    ]
+  }
+}

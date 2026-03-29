@@ -107,10 +107,10 @@
 
         default_layer {
             bindings = <
-&kp Q            &kp W     &kp E     &kp R            &kp T                                       &kp Y             &kp U  &kp I      &kp O    &lt LAYER3 P
-&kp A            &kp S     &kp D     &lt LAYER2 F     &kp G      &none                 &lt 4 ESC  &kp H             &kp J  &kp K      &kp L    &kp MINUS
-&mt LSHFT Z      &kp X     &kp C     &lt 3 V          &kp B      &lt 6 ESC             &lt 5 ESC  &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mt LSHFT LANG1  &kp LALT  &kp LGUI  &mt LSHFT LANG2  &kp LCTRL  &lt LAYER2 SPACE      &kp BSPC   &lt LAYER1 ENTER                             &kp LG(SPACE)
+&kp Q            &kp W     &kp E     &kp R            &lt 5 T                                            &kp Y             &kp U  &kp I      &kp O    &lt 5 P
+&kp A            &kp S     &kp D     &lt LAYER2 F     &kp G      &none                 &kp LG(SPACE)     &kp H             &kp J  &kp K      &kp L    &kp MINUS
+&mt LSHFT Z      &kp X     &kp C     &lt 3 V          &kp B      &lt 6 LANGUAGE_2      &lt 5 LANGUAGE_1  &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LSHFT LANG1  &kp LALT  &kp LGUI  &mt LSHFT LANG2  &kp LCTRL  &lt LAYER2 SPACE      &kp BSPC          &lt LAYER1 ENTER                             &kp LG(SPACE)
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -123,7 +123,7 @@
             bindings = <
 &kp N1     &kp N2       &kp N3         &kp N4         &kp N5                           &kp N6    &kp N7     &kp N8   &kp N9    &kp N0
 &kp TAB    &mt LSHFT S  &kp DEL        &kp ESC        &kp LPAR   &trans       &trans   &kp RPAR  &kp SEMI   &kp SQT  &kp BSLH  &kp PIPE
-&kp LSHFT  &mt LSHFT X  &kp LS(LG(C))  &kp LS(LG(V))  &kp LBKT   &trans       &trans   &kp RBKT  &kp GRAVE  &kp LT   &kp GT    &kp QMARK
+&kp LSHFT  &mt LSHFT X  &kp LS(LG(C))  &kp LS(LG(V))  &kp LBKT   &trans       &trans   &kp RBKT  &kp GRAVE  &kp LT   &kp GT    &kp EQUAL
 &kp LSHFT  &kp LALT     &kp LGUI       &trans         &kp LCTRL  &kp ESC      &kp ESC  &trans                                  &kp LCTRL
             >;
         };
@@ -156,10 +156,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
@@ -169,10 +169,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
             >;
         };
 

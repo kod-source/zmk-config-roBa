@@ -136,8 +136,8 @@
         layer_2 {
             bindings = <
 &kp LC(Q)        &kp LA(BSPC)  &kp LC(E)      &kp LC(R)   &kp LS(LG(T))                                 &kp END       &kp LC(LEFT)   &kp LC(UP)      &kp LC(RIGHT)         &kp F12
-&kp LC(TAB)      &kp LC(S)     &kp DEL        &mo SCROLL  &kp LC(G)      &none           &none          &mkp MB4      &mkp MB1       &mkp MB2        &kp LG(RS(NUMBER_5))  &kp F10
-&kp LC(LS(TAB))  &kp LC(X)     &kp LS(LG(C))  &kp LC(V)   &kp LA(LEFT)   &none           &none          &kp LG(LEFT)  &kp LG(RIGHT)  &kp LS(LG(N4))  &kp LC(LS(LG(N4)))    &kp F11
+&kp LC(TAB)      &kp LC(S)     &kp DEL        &mo SCROLL  &kp LC(G)      &none           &none          &mkp MB4      &mkp MB1       &mkp MB2        &kp LG(RS(NUMBER_5))  &kp F11
+&kp LC(LS(TAB))  &kp LC(X)     &kp LS(LG(C))  &kp LC(V)   &kp LA(LEFT)   &none           &none          &kp LG(LEFT)  &kp LG(RIGHT)  &kp LS(LG(N4))  &kp LC(LS(LG(N4)))    &kp F10
 &mo SCROLL       &kp LALT      &kp LGUI       &kp LSHFT   &kp LCTRL      &mo SCROLL      &kp LC(SPACE)  &kp BSPC                                                           &kp F1
             >;
 

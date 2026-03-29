@@ -123,7 +123,7 @@
             bindings = <
 &kp N1     &kp N2       &kp N3         &kp N4         &kp N5                           &kp N6    &kp N7     &kp N8     &kp N9    &kp N0
 &kp TAB    &mt LSHFT S  &kp DEL        &kp ESC        &kp LPAR   &trans       &trans   &kp RPAR  &kp SEMI   &kp SQT    &kp BSLH  &kp PIPE
-&kp LSHFT  &mt LSHFT X  &kp LS(LG(C))  &kp LS(LG(V))  &kp LBKT   &trans       &trans   &kp RBKT  &kp GRAVE  &kp COMMA  &kp DOT   &kp SLASH
+&kp LSHFT  &mt LSHFT X  &kp LS(LG(C))  &kp LS(LG(V))  &kp LBKT   &trans       &trans   &kp RBKT  &kp GRAVE  &kp COMMA  &kp DOT   &kp EQUAL
 &kp LSHFT  &kp LALT     &kp LGUI       &trans         &kp LCTRL  &kp ESC      &kp ESC  &trans                                    &kp LCTRL
             >;
         };
@@ -133,10 +133,10 @@
 
         layer_2 {
             bindings = <
-&kp LC(Q)        &kp LA(BSPC)  &kp LC(E)      &kp LC(R)   &kp LS(LG(T))                                 &kp END       &kp LC(LEFT)   &kp LC(UP)      &kp LC(RIGHT)       &kp F12
-&kp LC(TAB)      &kp LC(S)     &kp DEL        &mo SCROLL  &kp LC(G)      &none           &none          &mkp MB4      &mkp MB1       &mkp MB2        &none               &kp F10
-&kp LC(LS(TAB))  &kp LC(X)     &kp LS(LG(C))  &kp LC(V)   &kp LA(LEFT)   &none           &none          &kp LG(LEFT)  &kp LG(RIGHT)  &kp LS(LG(N4))  &kp LC(LS(LG(N4)))  &kp F11
-&mo SCROLL       &kp LALT      &kp LGUI       &kp LSHFT   &kp LCTRL      &mo SCROLL      &kp LC(SPACE)  &kp BSPC                                                         &kp F1
+&kp LC(Q)        &kp LA(BSPC)  &kp LC(E)      &kp LC(R)   &kp LS(LG(T))                                 &kp END       &kp LC(LEFT)   &kp LC(UP)      &kp LC(RIGHT)         &kp F12
+&kp LC(TAB)      &kp LC(S)     &kp DEL        &mo SCROLL  &kp LC(G)      &none           &none          &mkp MB4      &mkp MB1       &mkp MB2        &kp LG(RS(NUMBER_5))  &kp F10
+&kp LC(LS(TAB))  &kp LC(X)     &kp LS(LG(C))  &kp LC(V)   &kp LA(LEFT)   &none           &none          &kp LG(LEFT)  &kp LG(RIGHT)  &kp LS(LG(N4))  &kp LC(LS(LG(N4)))    &kp F11
+&mo SCROLL       &kp LALT      &kp LGUI       &kp LSHFT   &kp LCTRL      &mo SCROLL      &kp LC(SPACE)  &kp BSPC                                                           &kp F1
             >;
         };
 

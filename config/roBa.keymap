@@ -28,9 +28,9 @@
 #define BT      6  // Bluetooth設定
 
 &mt {
-    flavor = "balanced";
-    quick-tap-ms = <0>;
-    tapping-term-ms = <150>;
+    flavor = "hold-preferred";
+    quick-tap-ms = <150>;
+    tapping-term-ms = <200>;
 };
 
 &trackball { scroll-layers = <SCROLL>; };

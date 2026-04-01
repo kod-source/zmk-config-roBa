@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - '-'
-  - {t: Z, h: LSHFT}
+  - Z
   - X
   - C
   - {t: V, h: '3'}

@@ -42,31 +42,36 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <230>;
         };
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <230>;
         };
 
         muhennkann {
             bindings = <&to_layer_0 INT_MUHENKAN>;
             key-positions = <11 10>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <230>;
         };
 
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <230>;
         };
 
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <230>;
         };
     };
 

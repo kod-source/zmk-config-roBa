@@ -86,6 +86,8 @@
         cmd_scroll_up: cmd_scroll_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
             bindings = <&macro_press &kp LGUI>
                      , <&macro_tap &msc SCRL_UP>
                      , <&macro_release &kp LGUI>;
@@ -95,6 +97,8 @@
         cmd_scroll_down: cmd_scroll_down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
             bindings = <&macro_press &kp LGUI>
                      , <&macro_tap &msc SCRL_DOWN>
                      , <&macro_release &kp LGUI>;
@@ -116,12 +120,14 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            tap-ms = <30>;
         };
 
         cmd_scroll_enc: cmd_scroll_enc {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&cmd_scroll_up>, <&cmd_scroll_down>;
+            tap-ms = <30>;
         };
     };
 

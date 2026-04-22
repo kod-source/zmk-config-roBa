@@ -88,9 +88,14 @@
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&macro_press &kp LGUI>
-                     , <&macro_tap &msc SCRL_UP>
-                     , <&macro_release &kp LGUI>;
+            bindings =
+                <&macro_press>,
+                <&kp LGUI>,
+                <&macro_tap>,
+                <&msc SCRL_UP>,
+                <&macro_release>,
+                <&kp LGUI>;
+
             label = "CMD_SCROLL_UP";
         };
 
@@ -99,9 +104,14 @@
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings = <&macro_press &kp LGUI>
-                     , <&macro_tap &msc SCRL_DOWN>
-                     , <&macro_release &kp LGUI>;
+            bindings =
+                <&macro_press>,
+                <&kp LGUI>,
+                <&macro_tap>,
+                <&msc SCRL_DOWN>,
+                <&macro_release>,
+                <&kp LGUI>;
+
             label = "CMD_SCROLL_DOWN";
         };
     };
@@ -120,6 +130,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             tap-ms = <30>;
         };
 
@@ -127,6 +138,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&cmd_scroll_up>, <&cmd_scroll_down>;
+
             tap-ms = <30>;
         };
     };
@@ -156,8 +168,6 @@
 &kp Z            &kp X     &kp C     &lt 3 V          &kp B                 &lt 6 LANGUAGE_2      &lt 5 LANGUAGE_1  &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &mt LSHFT LANG1  &kp LALT  &kp LGUI  &mt LSHFT LANG2  &mt LCTRL LANGUAGE_1  &lt LAYER2 SPACE      &kp BSPC          &lt LAYER1 ENTER                             &kp LG(SPACE)
             >;
-
-            sensor-bindings = <&msc_enc>;
         };
 
         // Layer 1: 数字・記号 - Keyball39 Layer 1 (Enter長押しで発動)
@@ -184,8 +194,6 @@
 &kp LC(LS(TAB))  &kp LC(X)     &kp LS(LG(C))  &kp LC(V)   &kp LA(LEFT)   &none           &none          &kp LG(LEFT)  &kp LG(RIGHT)  &kp LS(LG(N4))  &kp LC(LS(LG(N4)))    &kp F10
 &mo SCROLL       &kp LALT      &kp LGUI       &kp LSHFT   &kp LCTRL      &mo SCROLL      &kp LC(SPACE)  &kp BSPC                                                           &kp F1
             >;
-
-            sensor-bindings = <&cmd_scroll_enc>;
         };
 
         // Layer 3: テンキー・マウス - Keyball39 Layer 3 (P長押しで発動)

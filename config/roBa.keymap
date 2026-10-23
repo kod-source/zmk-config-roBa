@@ -73,6 +73,20 @@
             timeout-ms = <30>;
             require-prior-idle-ms = <230>;
         };
+
+        cmd_alt_right {
+            bindings = <&kp LG(LA(RIGHT))>;
+            key-positions = <13 20>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <230>;
+        };
+
+        cmd_alt_left {
+            bindings = <&kp LG(LA(LEFT))>;
+            key-positions = <13 17>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <230>;
+        };
     };
 
     macros {

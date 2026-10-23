@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - {t: P, h: '5'}
-  - A
+  - {t: A, h: '5'}
   - S
   - D
   - {t: F, h: '2'}
@@ -238,10 +238,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
+  - Gui+Alt+LEFT
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&mkp MB3'
+  - Gui+Alt+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

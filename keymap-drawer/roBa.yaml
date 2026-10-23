@@ -319,3 +319,7 @@ combos:
   k: '"'
 - p: [24, 25]
   k: '='
+- p: [13, 19]
+  k: Gui+Alt+RIGHT
+- p: [13, 17]
+  k: Gui+Alt+LEFT

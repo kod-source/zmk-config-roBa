@@ -178,7 +178,7 @@
         default_layer {
             bindings = <
 &kp Q            &kp W     &kp E     &kp R            &lt 5 T                                                       &kp Y             &kp U  &kp I      &kp O    &lt 5 P
-&kp A            &kp S     &kp D     &lt LAYER2 F     &kp G                 &none                 &kp LG(SPACE)     &kp H             &kp J  &kp K      &kp L    &kp MINUS
+&lt 5 A          &kp S     &kp D     &lt LAYER2 F     &kp G                &none                 &kp LG(SPACE)     &kp H             &kp J  &kp K      &kp L    &kp MINUS
 &kp Z            &kp X     &kp C     &lt 3 V          &kp B                 &lt 6 LANGUAGE_2      &lt 5 LANGUAGE_1  &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &mt LSHFT LANG1  &kp LALT  &kp LGUI  &mt LSHFT LANG2  &mt LCTRL LANGUAGE_1  &lt LAYER2 SPACE      &kp BSPC          &lt LAYER1 ENTER                             &kp LG(SPACE)
             >;
@@ -244,7 +244,7 @@
         SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LG(LA(LEFT))  &mkp MB1  &mkp MB2  &kp LG(LA(RIGHT))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
             >;
